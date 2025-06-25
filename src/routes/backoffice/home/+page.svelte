@@ -10,6 +10,7 @@
 	import { signInWithEmailAndPassword } from 'firebase/auth';
 	import { goto } from '$app/navigation';
 	import { preventDefault } from 'svelte/legacy';
+	import '/styles.css';
 
 	let join = false;
 	let create = false;
