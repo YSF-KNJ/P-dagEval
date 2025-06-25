@@ -1566,18 +1566,19 @@
 	.nameContainer {
 		position: relative;
 		width: 100%;
-		max-width: 37.7rem;
+		max-width: 50rem;
 	}
 
 	.nameContainer2 {
 		position: relative;
 		width: 100%;
+		max-width: 50rem;
 	}
 
 	.nameContainer3 {
 		position: relative;
 		width: 100%;
-		max-width: 36rem;
+		max-width: 50rem;
 	}
 
 	.nameContainer2 textarea {
@@ -1709,8 +1710,8 @@
 		width: 100%;
 		display: flex;
 		justify-content: space-between;
-
 		flex-wrap: wrap;
+		gap: 1rem;
 
 		& div {
 			width: 100%;
