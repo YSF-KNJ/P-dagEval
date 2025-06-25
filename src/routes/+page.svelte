@@ -4,6 +4,7 @@
 	import Icon from '@iconify/svelte';
 	import Header from './components/Header.svelte';
 	import { translations } from '$lib/stores/translation';
+	import '/styles.css';
 
 	$: $translations;
 </script>
